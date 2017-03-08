@@ -1,0 +1,22 @@
+user & psw
+
+pagina di autenticazione
+pagina di registrazione (pagina di conferma)
+pagina di recupera psw (pagina di inserimento)
+
+-------------------------------------------------
+
+tabella db per memorizzare credenziali utenti
+struttura:
+
+id: auto increment primary index
+user name: string 64 uniq index email
+psw: string index cifrato
+active: tinyint // vale o 0 o 1 (se utente attivo) index
+confirmation_code: string uniq index
+lost_psw: string index uniq
+
+
+
+
+session persistente tra pagine protette
