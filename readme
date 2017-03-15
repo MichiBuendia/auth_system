@@ -20,3 +20,13 @@ lost_psw: string index uniq
 
 
 session persistente tra pagine protette
+
+
+query
+
+registrazione: inserimento utente
+attivazione: update tabella dove settiamo attivo where confimation_code
+aggiornamento utente: update where id=
+aggiornamento per inserire lostpsw_code where username
+aggiornamento per aggiornare la pass where lostpassword_code
+select where user&psw
